@@ -24,6 +24,10 @@ ul {
   padding: 5px 0 5px 10px;
 }
 
+.add-score2 ul li {
+  margin: 10px;
+}
+
 .table li:nth-child(even) {
   background-color: rgba(148, 147, 147, 0.502);
 }
@@ -44,7 +48,7 @@ p {
 .table {
   border: 2px solid black;
   width: 400px;
-  height: fit-content;
+  height: 210px;
   box-sizing: border-box;
   margin-left: 20px;
 }
@@ -52,10 +56,6 @@ p {
 .container {
   display: flex;
   gap: 30px;
-}
-
-.add-score2 ul li {
-  margin: 10px;
 }
 
 .input {
