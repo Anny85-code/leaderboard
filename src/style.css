@@ -1,0 +1,70 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.first-section {
+  margin-left: 20px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.table li {
+  margin: 10px;
+  margin: 0;
+  padding: 5px 0 5px 10px;
+}
+
+.add-score2 ul li {
+  margin: 10px;
+}
+
+.table li:nth-child(even) {
+  background-color: rgba(148, 147, 147, 0.502);
+}
+
+.f-section {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-bottom: 30px;
+  width: 400px;
+  justify-content: space-between;
+}
+
+p {
+  margin: 0;
+}
+
+.table {
+  border: 2px solid black;
+  width: 400px;
+  height: 210px;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+}
+
+.input {
+  margin: 10px 0 10px 0;
+  height: 20px;
+  border-color: black;
+}
+
+.btn {
+  margin-left: 120px;
+  box-shadow: 5px 5px black;
+}
