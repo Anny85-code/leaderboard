@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
     <script defer src="index.bundle.js"></script>
     <title>Leaderboard</title>
   </head>
@@ -15,42 +19,39 @@
       <div class="first-section">
         <ul class="f-section">
           <li><p class="text">Recent Scores</p></li>
-          <li><button type="button" class="btn">Refresh</button></li>
+          <li><button type="button" class="btn refresh">Refresh</button></li>
         </ul>
       </div>
       <div class="container">
         <div class="table">
-          <ul>
-            <li>Name:100</li>
-            <li>Name:20</li>
-            <li>Name:50</li>
-            <li>Name:78</li>
-            <li>Name:125</li>
-            <li>Name:77</li>
-            <li>Name:42</li>
-          </ul>
+          <ul class="ul1"></ul>
         </div>
         <div class="add-score">
-          <ul class="add-score2">
-            <li><p class="text">Add your Score</p></li>
-            <li>
-              <input
-                type="text"
-                class="input"
-                id="name"
-                placeholder="your name"
-              />
-            </li>
-            <li>
-              <input
-                type="number"
-                class="input"
-                id="score"
-                placeholder="your score"
-              />
-            </li>
-            <li><input type="submit" class="btn" id="button" /></li>
-          </ul>
+          <p class="text">Add your Score</p>
+
+          <form action="" class="form-data">
+            <ul class="add-score2">
+              <li>
+                <input
+                  type="text"
+                  class="input"
+                  id="username"
+                  placeholder="your name"
+                  required
+                />
+              </li>
+              <li>
+                <input
+                  type="number"
+                  class="input"
+                  id="score"
+                  placeholder="your score"
+                  required
+                />
+              </li>
+              <li><input type="submit" class="btn" id="button" /></li>
+            </ul>
+          </form>
         </div>
       </div>
     </main>
