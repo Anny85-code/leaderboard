@@ -1,4 +1,4 @@
-const star = `<i class='fa fa-star'></i>`;
+const star = "<i class='fa fa-star' aria-hidden='true'></i>";
 const renderList = (list) => {
   const container = document.querySelector('.table ul');
   container.innerHTML = '';
