@@ -59,7 +59,6 @@ p {
 .table {
   border: 2px solid black;
   width: 400px;
-  height: fit-content;
   box-sizing: border-box;
   margin-left: 20px;
   border-radius: 8px;
