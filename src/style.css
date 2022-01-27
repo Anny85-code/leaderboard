@@ -95,3 +95,10 @@ p {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 5px;
 }
+
+footer {
+  color: rgb(18, 18, 94);
+  text-align: center;
+  position: relative;
+  margin-top: 200px;
+}
