@@ -1,12 +1,16 @@
 # leaderboard
 
 > "leaderboard" is a simple web application that displays a table of names and scores and allows you to add and remove names and scores from that table.
-> ![leaderboard](https://user-images.githubusercontent.com/87186552/151043785-59ac7cb6-5545-4120-9b6f-1183399d1a50.png)
+> ![leaderboardlatest](https://user-images.githubusercontent.com/87186552/151335363-85db4e6d-d5bf-4449-aae8-d132792f1adc.png)
 
 ## Built With
 
 - HTML & CSS & JavaScript
 - Html & Css linters
+
+## Live Demo
+
+Click here [https://anny85-code.github.io/leaderboard/]
 
 ## Getting Started
 
