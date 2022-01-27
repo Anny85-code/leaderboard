@@ -4,7 +4,7 @@ const renderList = (list) => {
   container.innerHTML = '';
 
   if (!list.length) {
-    container.innerHTML = '<li>Empty</li>';
+    container.innerHTML = '<li>No scores recorded</li>';
     return;
   }
 
