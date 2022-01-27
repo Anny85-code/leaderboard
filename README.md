@@ -8,6 +8,10 @@
 - HTML & CSS & JavaScript
 - Html & Css linters
 
+## Live Demo
+
+Click here [https://anny85-code.github.io/leaderboard/]
+
 ## Getting Started
 
 - clone the repository by running\
