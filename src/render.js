@@ -10,6 +10,7 @@ const renderList = (list) => {
 
   list
     .sort((a, b) => b.score - a.score)
+    .filter((item) => item.user !== '')
     .forEach((score, index) => {
       const li = document.createElement('li');
       if (index < 3) {
