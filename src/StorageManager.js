@@ -3,8 +3,7 @@ export default class StorageManager {
     localStorage.setItem('scoreData', JSON.stringify(scoreData));
   };
 
-  static getData = () =>
-    localStorage.getItem('scoreData')
+  static getData = () => (localStorage.getItem('scoreData')
       ? JSON.parse(localStorage.getItem('scoreData'))
-      : [];
+      : []);
 }

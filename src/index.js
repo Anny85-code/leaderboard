@@ -31,6 +31,6 @@ form.addEventListener('submit', async (e) => {
   renderList(localStorage);
 });
 
-//added this to load from localstorage on page load
+// added this to load from localstorage on page load
 const localStorage = StorageManager.getData();
 renderList(localStorage);
