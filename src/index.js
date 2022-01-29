@@ -16,19 +16,23 @@ refreshBtn.addEventListener('click', async () => {
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
 
-  const score = {
-    user: form.elements.username.value.trim(),
-    score: form.elements.score.value.trim(),
-  };
+  if (
+    form.elements.username.value.trim().length > 0 &&
+    form.elements.score.value.trim().length > 0
+  ) {
+    const score = {
+      user: form.elements.username.value.trim(),
+      score: form.elements.score.value.trim(),
+    };
 
-  form.reset();
+    form.reset();
 
-  await setData(score);
-  const localStorage = StorageManager.getData();
-
-  localStorage.push(score);
-  StorageManager.storeData(localStorage);
-  renderList(localStorage);
+    await setData(score);
+    const localStorage = StorageManager.getData();
+    localStorage.push(score);
+    StorageManager.storeData(localStorage);
+    renderList(localStorage);
+  }
 });
 
 // added this to load from localstorage on page load
