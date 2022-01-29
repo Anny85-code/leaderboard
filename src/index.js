@@ -17,8 +17,8 @@ form.addEventListener('submit', async (e) => {
   e.preventDefault();
 
   if (
-    form.elements.username.value.trim().length > 0 &&
-    form.elements.score.value.trim().length > 0
+    form.elements.username.value.trim().length > 0
+    && form.elements.score.value.trim().length > 0
   ) {
     const score = {
       user: form.elements.username.value.trim(),
